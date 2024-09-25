@@ -4,7 +4,7 @@ This project uses K6 to perform load balancing tests on a private API endpoint. 
 
 ## Prerequisites
 
-- [K6](https://k6.io/docs/getting-started/installation) must be installed on your local machine.
+- [K6](https://grafana.com/docs/k6/latest/set-up/install-k6/) must be installed on your local machine.
 
 ## Running the Tests
 
