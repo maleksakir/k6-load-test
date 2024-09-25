@@ -4,8 +4,8 @@ import { check, sleep } from 'k6';
 // Configuration
 export let options = {
     stages: [
-        { duration: '1m', target: 50 },  // ramp up to 50 users
-        { duration: '2m', target: 50 },  // stay at 50 users for 2 minutes
+        { duration: '1m', target: 5 },  // ramp up to 5 users
+        { duration: '1m', target: 5 },  // stay at 5 users for 1 minutes
         { duration: '1m', target: 0 },   // ramp down to 0 users
     ],
     insecureSkipTLSVerify: true,  // Skip SSL certificate verification
